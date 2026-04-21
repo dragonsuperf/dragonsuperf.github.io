@@ -9,53 +9,53 @@ export default function Home() {
       <div className="shell">
         <div className="topbar">
           <div className="brand">
-            <span className="dot" /> CRUX / COACH DOSSIER
+            <span className="dot" /> CRUX / 용수
           </div>
           <div className="topnav">
-            <span>COACH</span>
-            <span>SESSIONS</span>
-            <span>GYM</span>
-            <span>BOOK</span>
+            <span>영웅</span>
+            <span>전설</span>
+            <span>신화</span>
+            <span>예약</span>
           </div>
           <div className="session-tag">
-            <span className="live" /> SESSION · OPEN FOR SIGN-UP
+            <span className="live" /> 티켓팅 · 이미 내 몫이 먼저임
           </div>
         </div>
 
         <div className="marquee">
           <div className="marquee-track">
-            <span>BOULDERING 101</span>
+            <span>볼더링의 조상</span>
             <span className="sep">◆</span>
-            <s>CHALK UP.</s>
+            <s>초크 한 번에 월세 한달치</s>
             <span className="sep">◆</span>
-            <b>SEND IT.</b>
+            <b>떨어져도 무적</b>
             <span className="sep">◆</span>
-            <span>THE CLIMB · SADANG</span>
+            <span>더클라임 사당</span>
             <span className="sep">◆</span>
-            <s>NO EGO. ONLY BETA.</s>
+            <s>자존심 OFF · 실력 OFF · 텐션 ON</s>
             <span className="sep">◆</span>
-            <b>4 / 22 · 19:00</b>
+            <b>4 / 22 · 19:00 · 지각하면 V0 강등</b>
             <span className="sep">◆</span>
-            <span>BOULDERING 101</span>
+            <span>볼더링의 조상</span>
             <span className="sep">◆</span>
-            <s>CHALK UP.</s>
+            <s>초크 한 번에 월세 한달치</s>
             <span className="sep">◆</span>
-            <b>SEND IT.</b>
+            <b>떨어져도 무적</b>
             <span className="sep">◆</span>
-            <span>THE CLIMB · SADANG</span>
+            <span>더클라임 사당</span>
             <span className="sep">◆</span>
-            <s>NO EGO. ONLY BETA.</s>
+            <s>자존심 OFF · 실력 OFF · 텐션 ON</s>
             <span className="sep">◆</span>
-            <b>4 / 22 · 19:00</b>
+            <b>4 / 22 · 19:00 · 지각하면 V0 강등</b>
             <span className="sep">◆</span>
           </div>
         </div>
 
         <div className="hero">
           <div className="hero-left">
-            <div className="tape-vert">FILE / COACH-001 / KR</div>
+            <div className="tape-vert">파일 / 용수옹-001 / 기밀 아님</div>
             <div className="eyebrow">
-              Coach Dossier <span className="bar" /> No. 001
+              용수옹 백서 <span className="bar" /> 제 001호
             </div>
             <h1 className="h1">
               <span className="outline">KIM</span>
@@ -64,66 +64,70 @@ export default function Home() {
               <span className="kr">김 · 용 · 수</span>
             </h1>
             <p className="lede">
-              홀드 위에서 망설이지 않는 코치. 처음 벽 앞에 선 당신에게 가장 먼저
-              필요한 건 기술이 아니라 &ldquo;한 번만 더&rdquo;라는 감각입니다.
-              매트 깔고, 초크 털고, 발끝부터 머리까지 — 오늘 밤, 당신의 첫
-              문제를 같이 풀어봅시다.
+              벽 앞에서 5초 고민하다 &ldquo;어, 몰라 일단 올라가&rdquo;로 인생을
+              살아온 전설의 클라이머. 홀드를 잡는 순간 뇌가 포맷되며, 착지할
+              때쯤 다시 부팅됩니다. 오늘도 V5 앞에서 깊은 사색에 잠긴 채, 결국
+              V3만 열 번 깨고 집에 가는 실전파.
             </p>
 
             <div className="stats">
               <div className="stat accent">
-                <div className="k">Grade · Bouldering</div>
+                <div className="k">공식 등급 · 본인 주장</div>
                 <div className="v">
                   V5<span className="u">+</span>
                 </div>
-                <div className="note">현재 프로젝팅 · 퍼플 볼륨</div>
+                <div className="note">완등한 적 있는지 아무도 못 봄</div>
               </div>
               <div className="stat">
-                <div className="k">Climb Hours / Week</div>
+                <div className="k">주간 암장 체류 시간</div>
                 <div className="v">
                   18<span className="u">HRS</span>
                 </div>
-                <div className="note">세션 기준 평균</div>
+                <div className="note">그 중 12시간은 매트에서 누워있음</div>
               </div>
               <div className="stat lime">
-                <div className="k">Coached Beginners</div>
+                <div className="k">입문자 멘탈 붕괴 유발</div>
                 <div className="v">
                   120<span className="u">+</span>
                 </div>
-                <div className="note">첫 볼더링 완등까지</div>
+                <div className="note">
+                  &ldquo;형 이거 진짜 V0 맞아요?&rdquo;
+                </div>
               </div>
               <div className="stat">
-                <div className="k">Home Gym</div>
+                <div className="k">주요 서식지</div>
                 <div className="v">
                   SDG<span className="u">.01</span>
                 </div>
-                <div className="note">더클라임 사당</div>
+                <div className="note">더클라임 사당 · 매트 전문가</div>
               </div>
             </div>
           </div>
 
           <div className="coach-card">
             <div className="coach-meta-top">
-              <span>ID · KYS-0422</span>
-              <span className="code">◉ LIVE · BOULDER</span>
-              <span>SADANG / KR</span>
+              <span>ID · 용수-0422</span>
+              <span className="code">◉ 생포 · 사당</span>
+              <span>품종 / 볼더옹</span>
             </div>
 
             <div className="coach-img-wrap">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/assets/coach.png" alt="Kim Yongsu — coach portrait" />
+              <img src="/assets/coach.png" alt="김용수 — 자칭 볼더링 전설" />
               <div className="frame-stickers">
-                <span className="sticker s1">SEND IT 👍</span>
-                <span className="sticker s2">CHALK ON</span>
-                <span className="sticker s3">THE CLIMB · SADANG</span>
+                <span className="sticker s1">일단 올라가 👍</span>
+                <span className="sticker s2">초크 범벅</span>
+                <span className="sticker s3">사당 토박이</span>
               </div>
             </div>
 
             <div className="coach-id">
               <div>
-                <div className="role">Head Coach · Bouldering 101</div>
+                <div className="role">
+                  자칭 수석 코치 · 실제로는 매트 관리인
+                </div>
                 <div className="name-en">KIM YONG&nbsp;SU</div>
-                <div className="name-kr">김용수</div>
+                <div className="name-kr">김용수옹</div>
               </div>
               <div />
               <div className="grade">V5+</div>
@@ -134,30 +138,30 @@ export default function Home() {
         <section className="block">
           <div className="block-head">
             <h2>
-              <span className="num">02</span> THE FILE / 이력
+              <span className="num">02</span> 파일 / 서사시
             </h2>
-            <div className="hint">Verified · 2026.04</div>
+            <div className="hint">본인 검증 · 2026.04</div>
           </div>
 
           <div className="split">
             <div className="bio">
               <p>
-                김용수 코치는 볼더링을 &ldquo;문제&rdquo;가 아니라
-                &ldquo;대화&rdquo;로 설명합니다. 벽과 몸 사이에서 가장 솔직한
-                움직임이 나온다고 믿고, 입문자에게 첫 홀드를 잡게 하는 순간을
-                가장 좋아한다고 말합니다.
+                김용수옹은 볼더링을 &ldquo;문제&rdquo;가 아니라 &ldquo;인생
+                상담&rdquo;이라고 설명합니다. 벽에 매달려 있으면 월세, 카드값,
+                내일 점심 메뉴까지 한 번에 정리된다고 주장하지만, 정작 본인은
+                아직 V6 근처도 못 가봤습니다.
               </p>
               <p>
-                2025년 TCBC(더클라임 바운더링 컴피티션)에 스태프로 참여하며 대회
-                운영을 경험했고, 2026년 TCBC 신림 — 남자부 보라(Purple) 부문에서
-                4등(뒤에서)을 기록. 숫자로 자기를 증명하기보단, 매 세션마다
-                &ldquo;오늘 조금 더 낫게&rdquo;를 실천합니다.
+                2025년 TCBC에 스태프로 참여해 티켓팅에 &ldquo;성공&rdquo;한
+                이력을 자랑으로 꼽고, 2026년 TCBC 신림 남자 보라 부문에서는
+                뒤에서 4등이라는 쾌거를 이룩. 숫자보단 분위기로 승부하는
+                타입이라, 세션마다 새 별명이 하나씩 생깁니다.
               </p>
               <div className="quote">
-                “Don&rsquo;t grip harder.
+                “손에 힘 빼.
                 <br />
-                Trust your feet.”
-                <span className="kr">손에 힘 빼세요. 발을 믿으세요.</span>
+                발은 더 빼.”
+                <span className="kr">결국 그냥 떨어지라는 뜻</span>
               </div>
             </div>
 
@@ -165,38 +169,38 @@ export default function Home() {
               <div className="row">
                 <div className="yr">&lsquo;26</div>
                 <div className="title">
-                  TCBC 신림 · 남자 보라(Purple) 부문 4등 (뒤에서)
-                  <span className="sub">
-                    The Climb Bouldering Competition / Sillim
-                  </span>
+                  TCBC 신림 · 남자 보라(Purple) 부문 뒤에서 4등
+                  <span className="sub">본인은 앞에서 세는 걸 선호함</span>
                 </div>
-                <div className="badge hot">FINALIST</div>
+                <div className="badge hot">FINALIST?</div>
               </div>
               <div className="row">
                 <div className="yr">&lsquo;25</div>
                 <div className="title">
-                  TCBC 티켓팅 성공
+                  TCBC 티켓팅 성공 (세계 신기록)
                   <span className="sub">
-                    The Climb Bouldering Competition / Ops
+                    클릭 0.3초 · 본인 생애 최고 반응속도
                   </span>
                 </div>
-                <div className="badge">STAFF</div>
+                <div className="badge">STAFF?</div>
               </div>
               <div className="row">
                 <div className="yr">&lsquo;25</div>
                 <div className="title">
                   더클라임 더레벨 티켓팅 성공
-                  <span className="sub">The Climb Level · Ticket Success</span>
+                  <span className="sub">집 계약보다 빠르게 예약에 성공</span>
                 </div>
-                <div className="badge">LEAD</div>
+                <div className="badge">LEGEND</div>
               </div>
               <div className="row">
                 <div className="yr">&lsquo;24</div>
                 <div className="title">
-                  퐁파이더 3대 회장 선출
-                  <span className="sub">Pongpider 3rd President Election</span>
+                  퐁파이더 3대 회장 선출 (무투표 당선)
+                  <span className="sub">
+                    경쟁자 0명 · 본인 추대 · 본인 재가
+                  </span>
                 </div>
-                <div className="badge">SEND</div>
+                <div className="badge">PRESIDENT</div>
               </div>
             </div>
           </div>
@@ -205,34 +209,34 @@ export default function Home() {
         <section className="block">
           <div className="block-head">
             <h2>
-              <span className="num">03</span> NEXT SESSION / 다가오는 강습
+              <span className="num">03</span> 다음 출몰 / 강습 아님
             </h2>
-            <div className="hint">Limited · 8 Spots</div>
+            <div className="hint">선착순 · 8자리 · 현장 난입 환영</div>
           </div>
 
           <div className="session">
             <div className="head">
-              <span className="tag">● BOULDERING · LEVEL 01</span>
+              <span className="tag">● 볼더링 · 인생레벨 01</span>
               <h3>
-                Climb
+                일단
                 <br />
-                <span className="accent">like you</span>
+                <span className="accent">올라가</span>
                 <br />
-                mean it.
-                <span className="kr">클라이밍 입문 강습 · 첫 문제를 풀다</span>
+                떨어지자.
+                <span className="kr">입문 강습 · 낙법이 본체</span>
               </h3>
               <p className="desc">
-                신발 신는 법부터, 매트 위 낙법, 발 딛기, 첫 V0 완등까지. 90분
-                안에 당신의 몸이 벽을 어떻게 읽는지 알게 됩니다. 체육복, 양말,
-                그리고 &ldquo;한 번만 더&rdquo;의 마음만 챙겨오세요. 나머진
-                코치가 챙깁니다.
+                신발 신는 법은 유튜브에서 배워오시고, 매트 위에서 폼나게
+                떨어지는 법을 알려드립니다. 90분 안에 손가락 한 마디, 자존심 두
+                마디를 잃고 갑니다. 준비물은 양말, 체육복, 그리고 &ldquo;나 오늘
+                왜 왔지&rdquo;라는 질문을 참을 인내심.
               </p>
 
               <div className="cta-row">
                 <button className="btn primary">
-                  RESERVE A SPOT <span className="arr">→</span>
+                  일단 예약 <span className="arr">→</span>
                 </button>
-                <button className="btn">VIEW BETA</button>
+                <button className="btn">후기 구경</button>
               </div>
             </div>
 
@@ -241,7 +245,8 @@ export default function Home() {
                 <div className="meta-cell big hl">
                   <div className="k">Date · 일시</div>
                   <div className="v">
-                    04 / 22 · WED <span className="kr">19:00 KST</span>
+                    04 / 22 · WED{" "}
+                    <span className="kr">19:00 · 늦으면 버림</span>
                   </div>
                 </div>
                 <div className="meta-cell">
@@ -257,16 +262,20 @@ export default function Home() {
                   <div className="v">
                     BEGINNER
                     <br />
-                    <span className="kr">입문 · 첫 클라이밍</span>
+                    <span className="kr">입문 · 인내심 필수</span>
                   </div>
                 </div>
                 <div className="meta-cell">
                   <div className="k">Duration</div>
-                  <div className="v">90 MIN</div>
+                  <div className="v">
+                    90분<span className="kr"> (체감 3시간)</span>
+                  </div>
                 </div>
                 <div className="meta-cell">
                   <div className="k">Capacity</div>
-                  <div className="v">08 PAX</div>
+                  <div className="v">
+                    08 PAX<span className="kr"> · 손절 포함</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -274,9 +283,9 @@ export default function Home() {
         </section>
 
         <footer>
-          <span>CRUX · COACH DOSSIER No. 001</span>
-          <span>KIM YONGSU / BOULDERING 101 / THE CLIMB SADANG</span>
-          <span>PRINTED 2026.04.21</span>
+          <span>CRUX · 용수옹 백서 제 001호</span>
+          <span>김용수옹 / 일단올라가 101 / 더클라임 사당</span>
+          <span>인쇄일 2026.04.21 · 유통기한 없음</span>
         </footer>
       </div>
     </>
