@@ -67,7 +67,8 @@ export default function Home() {
               벽 앞에서 평균 5.2초간 사색한 뒤 올라가는 것으로 알려져 있습니다.
               홀드를 잡는 순간 단기 기억이 일시 정지되며, 매트에 닿는 순간
               정상화되는 현상이 여러 차례 관찰된 바 있습니다. 공식 기록상
-              프로젝팅 등급은 V5+이나, 본인 외 목격자는 아직 확보되지 않았습니다.
+              프로젝팅 등급은 V5+이나, 본인 외 목격자는 아직 확보되지
+              않았습니다.
             </p>
 
             <div className="stats">
@@ -142,16 +143,14 @@ export default function Home() {
           <div className="split">
             <div className="bio">
               <p>
-                김용수 코치는 볼더링을 &ldquo;문제 해결&rdquo;이 아닌 &ldquo;장기
-                대화&rdquo;로 정의합니다. 벽과 몸 사이에서 가장 정직한 움직임이
-                나온다고 믿으며, 이 철학은 지금까지 그의 프로젝팅 완등률과
-                유의미한 상관관계를 보이지 않았습니다.
+                김용수 코치는 볼더링을 &ldquo;문제 해결&rdquo;이 아닌
+                &ldquo;장기 대화&rdquo;로 정의합니다. 벽과 몸 사이에서 가장
+                정직한 움직임이 나온다고 믿으며, 이 철학은 지금까지 그의
+                프로젝팅 완등률과 유의미한 상관관계를 보이지 않았습니다.
               </p>
               <p>
-                2025년 TCBC 스태프로 참여하여 티켓팅 예매에 성공했고, 2026년
-                동일 대회 신림 예선에서는 남자 보라(Purple) 부문 후순위 4위라는
-                기록을 수립했습니다. 당사자는 이를 &ldquo;통계적으로는 상위
-                100%&rdquo;라 설명합니다.
+                2025년 TCBC 티켓팅 예매에 성공했고, 해당 대회 예선에서는 남자
+                보라(Purple) 부문 4위(뒤에서)라는 기록을 수립했습니다.
               </p>
               <div className="quote">
                 “손에 힘 빼고,
@@ -165,7 +164,7 @@ export default function Home() {
               <div className="row">
                 <div className="yr">&lsquo;26</div>
                 <div className="title">
-                  TCBC 신림 · 남자 보라(Purple) 부문 4위 (총 4인 참가)
+                  TCBC 신림 · 남자 보라(Purple) 부문 4위 (뒤에서)
                   <span className="sub">
                     THE CLIMB BOULDERING COMPETITION / SILLIM
                   </span>
@@ -223,13 +222,16 @@ export default function Home() {
                 <span className="accent">like you</span>
                 <br />
                 mean it.
-                <span className="kr">클라이밍 입문 강습 · 첫 낙하를 경험하다</span>
+                <span className="kr">
+                  클라이밍 입문 강습 · 첫 낙하를 경험하다
+                </span>
               </h3>
               <p className="desc">
                 신발 신는 법부터 매트 위 낙법, 첫 V0 완등까지. 90분 안에 몸이
-                벽을 어떻게 읽는지, 그리고 바닥이 얼마나 가까운지 동시에 학습하게
-                됩니다. 체육복, 양말, 그리고 이후 2일간의 전신 근육통을 견딜
-                여유만 챙겨오세요. 나머지는 코치가 책임집니다 (법적 책임은 제외).
+                벽을 어떻게 읽는지, 그리고 바닥이 얼마나 가까운지 동시에
+                학습하게 됩니다. 체육복, 양말, 그리고 이후 2일간의 전신 근육통을
+                견딜 여유만 챙겨오세요. 나머지는 코치가 책임집니다 (법적 책임은
+                제외).
               </p>
 
               <div className="cta-row">
@@ -245,7 +247,8 @@ export default function Home() {
                 <div className="meta-cell big hl">
                   <div className="k">Date · 일시</div>
                   <div className="v">
-                    04 / 22 · WED <span className="kr">19:00 · 지각 시 명단 제외</span>
+                    04 / 22 · WED{" "}
+                    <span className="kr">19:00 · 지각 시 명단 제외</span>
                   </div>
                 </div>
                 <div className="meta-cell">
